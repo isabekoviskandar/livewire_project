@@ -1,7 +1,10 @@
 <?php
 
+use App\Livewire\CategoryComponent;
+use App\Livewire\PostComponent;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+Route::get('/' , CategoryComponent::class);
+Route::get('/post' , PostComponent::class);

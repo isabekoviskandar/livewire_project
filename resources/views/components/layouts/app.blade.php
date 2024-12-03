@@ -14,9 +14,7 @@
     <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
     <div class="wrapper">
     
-      <div class="preloader flex-column justify-content-center align-items-center">
-        <img class="animation__wobble" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
-      </div>
+
 
     
       <aside class="main-sidebar sidebar-dark-primary elevation-4">
@@ -60,6 +58,24 @@
                   <i class="nav-icon fas fa-th"></i>
                   <p>
                     Posts
+                    <span class="right badge badge-secondary">Posts</span>
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/blog" class="nav-link">
+                  <i class="nav-icon fas fa-th"></i>
+                  <p>
+                    Blog Page
+                    <span class="right badge badge-secondary">Posts</span>
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/details" class="nav-link">
+                  <i class="nav-icon fas fa-th"></i>
+                  <p>
+                    Blog details
                     <span class="right badge badge-secondary">Posts</span>
                   </p>
                 </a>

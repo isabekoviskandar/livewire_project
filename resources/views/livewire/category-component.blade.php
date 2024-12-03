@@ -1,7 +1,6 @@
 <div>
     <div class="container mt-5">
         <h2 class="text-center">Categories</h2>
-
         <form wire:submit.prevent="{{ $category_id ? 'update' : 'create' }}" class="mb-4">
             <div class="mb-3">
                 <label for="name" class="form-label">Category Name</label>
